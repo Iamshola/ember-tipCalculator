@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.container{
+    width: 400px;
+    margin: 100px 480px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+select, input{
+    width: 300px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+label{
+    font-size: 20px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: pink;
+
+}
+
+.tipAmount, .totalAmount {
+    color: lightpink;
+}
